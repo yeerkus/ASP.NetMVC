@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: black;
+    color: whitesmoke;
+    padding: 5%;
+}
+.intro,.num,.outro{
+    width: auto;
+    display: inline-block;
+}
+.intro{
+    flex: 1;
+}
+.num{
+    flex: 4;
+    font-size: 15vw;
+}
+.outro{
+    flex: 1;
+}
