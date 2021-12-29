@@ -1,5 +1,5 @@
-# NoobASP
-Noob ASP.NET Project
+# ASP.NetMVC
+Noob ASP.NET MVC Project
 
 ### Why is File system wierd?
 
