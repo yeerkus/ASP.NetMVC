@@ -9,7 +9,7 @@ namespace FirstMVC.Controllers
     {
         public IActionResult Index()
         {
-            var client = new MongoClient("mongodb+srv://********:********@microservices.rjvap.mongodb.net/Blog?retryWrites=true&w=majority");
+            var client = new MongoClient("mongodb+srv://********:********@microservices.rjvap.mongodb.net/********?retryWrites=true&w=majority");
             var db = client.GetDatabase("Blog");
             var collection = db.GetCollection<Visitor>("visitors");
             
